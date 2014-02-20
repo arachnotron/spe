@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Oss2wZp-EeOmia6CyaG99w" guid="_Oss2wZp-EeOmia6CyaG99w">
+    <subManagers xmi:id="_PdzjkJp-EeOmia6CyaG99w" href="uma://_PdxuYJp-EeOmia6CyaG99w#_PdzjkJp-EeOmia6CyaG99w"/>
+    <resourceDescriptors xmi:id="_Oss2wpp-EeOmia6CyaG99w" id="_Oss2wJp-EeOmia6CyaG99w" uri=""/>
+    <resourceDescriptors xmi:id="_PdzjkZp-EeOmia6CyaG99w" id="_PdxuYJp-EeOmia6CyaG99w" uri="new_plug-in/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_Oss2wJp-EeOmia6CyaG99w" name="process_g" guid="_Oss2wJp-EeOmia6CyaG99w">
+    <methodElementProperty xmi:id="_OuBscJp-EeOmia6CyaG99w" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_PdxuYJp-EeOmia6CyaG99w" href="uma://_PdxuYJp-EeOmia6CyaG99w#_PdxuYJp-EeOmia6CyaG99w"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>
