@@ -17,7 +17,57 @@
           </childPackages>
         </childPackages>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_PdxubJp-EeOmia6CyaG99w" name="CoreContent" guid="_PdxubJp-EeOmia6CyaG99w"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_PdxubJp-EeOmia6CyaG99w" name="CoreContent" guid="_PdxubJp-EeOmia6CyaG99w">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xLUKkJp_EeOmia6CyaG99w" name="Develop Change and Test Unit" guid="_xLUKkJp_EeOmia6CyaG99w" briefDescription="High-level abstraction of the process.">
+          <methodElementProperty xmi:id="_xLd7kJp_EeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_RXMmwJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_U3caYJqBEeOmia6CyaG99w" name="Schedule and Assign Tasks" guid="_U3caYJqBEeOmia6CyaG99w">
+          <methodElementProperty xmi:id="_U3caYZqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_W5Or8JqBEeOmia6CyaG99w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_eRbokJqBEeOmia6CyaG99w" name="Modify Design" guid="_eRbokJqBEeOmia6CyaG99w">
+          <methodElementProperty xmi:id="_eRw_wJqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_e8PgIJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f4Y_UJqBEeOmia6CyaG99w" name="Review Design" guid="_f4Y_UJqBEeOmia6CyaG99w">
+          <methodElementProperty xmi:id="_f4Y_UZqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_gm_KsJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
+          <methodElementProperty xmi:id="_hn9fgJqBEeOmia6CyaG99w" name="pakage_supporting" value="false"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_AAVzMJqCEeOmia6CyaG99w" name="Design Review Feedback" guid="_AAVzMJqCEeOmia6CyaG99w" presentationName="New Artifact">
+            <methodElementProperty xmi:id="_B7RO0JqCEeOmia6CyaG99w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_Nc3CsJqCEeOmia6CyaG99w" name="Approved Modified Design" guid="_Nc3CsJqCEeOmia6CyaG99w" presentationName="New Deliverable">
+            <methodElementProperty xmi:id="_OdjqsJqCEeOmia6CyaG99w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_Q4HBkJqCEeOmia6CyaG99w" name="Defects Identified" guid="_Q4HBkJqCEeOmia6CyaG99w" presentationName="New Outcome">
+            <methodElementProperty xmi:id="_Ru3DYJqCEeOmia6CyaG99w" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_SWxX8JqCEeOmia6CyaG99w" name="Aggregate Effort" guid="_SWxX8JqCEeOmia6CyaG99w" presentationName="New Outcome">
+            <methodElementProperty xmi:id="_TnPhUJqCEeOmia6CyaG99w" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_pPn0cJqBEeOmia6CyaG99w" name="Modify Code" guid="_pPn0cJqBEeOmia6CyaG99w">
+          <methodElementProperty xmi:id="_pP_n4JqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_pviqoJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qjDLMJqBEeOmia6CyaG99w" name="Modify Test Plans" guid="_qjDLMJqBEeOmia6CyaG99w">
+          <methodElementProperty xmi:id="_qjDyQJqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_ssHwgJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_tS7R0JqBEeOmia6CyaG99w" name="Modify Unit Test Package" guid="_tS7R0JqBEeOmia6CyaG99w">
+          <methodElementProperty xmi:id="_tS744JqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_usDA4JqBEeOmia6CyaG99w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_v-NzYJqBEeOmia6CyaG99w" name="Test Unit" guid="_v-NzYJqBEeOmia6CyaG99w">
+          <methodElementProperty xmi:id="_v-v-4JqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_waLWoJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xAhk8JqBEeOmia6CyaG99w" name="Monitor Progress" guid="_xAhk8JqBEeOmia6CyaG99w">
+          <methodElementProperty xmi:id="_xAhk8ZqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_yXPgQJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
+        </childPackages>
+      </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_PdxubZp-EeOmia6CyaG99w" name="CapabilityPatterns" guid="_PdxubZp-EeOmia6CyaG99w"/>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Pdxubpp-EeOmia6CyaG99w" name="DeliveryProcesses" guid="_Pdxubpp-EeOmia6CyaG99w"/>
