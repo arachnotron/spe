@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-iCWOd9YdZDRbgPGUkvM_xA" name=",_nzCiUKPwEeOReN0wR-fb-g" guid="-iCWOd9YdZDRbgPGUkvM_xA">
+  <mainDescription>The design of the software system will be modified by the design engineer taking into accoutn the current design, the new&#xD;
+requirements, and if applicable the feedback from the design review.</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

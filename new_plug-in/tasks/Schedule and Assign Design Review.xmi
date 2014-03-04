@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-LGo0zmFReXx57lm4OmIViA" name=",_0JQDUKPrEeOReN0wR-fb-g" guid="-LGo0zmFReXx57lm4OmIViA" changeDate="2014-03-04T17:26:05.222-0500">
+  <mainDescription>The Project Manager must schedule and designate the participants for a design review. These participants include the design&#xD;
+engineer, QA engineer, and two other software engineers.</mainDescription>
+  <purpose>To review the propose design of the software change.</purpose>
+</org.eclipse.epf.uma:TaskDescription>
