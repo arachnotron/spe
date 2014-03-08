@@ -143,7 +143,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_e3zXkKPuEeOReN0wR-fb-g" name="Program Manager" guid="_e3zXkKPuEeOReN0wR-fb-g" presentationName="PM">
             <methodElementProperty xmi:id="_jQQlkKPuEeOReN0wR-fb-g" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_gaItAKPuEeOReN0wR-fb-g" name="Quality Assurance Engineering" guid="_gaItAKPuEeOReN0wR-fb-g" presentationName="QA Eng">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_gaItAKPuEeOReN0wR-fb-g" name="Quality Assurance Engineer" guid="_gaItAKPuEeOReN0wR-fb-g" presentationName="Quality Assurance Engineer">
             <methodElementProperty xmi:id="_jFBl8KPuEeOReN0wR-fb-g" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_QPuzkKPxEeOReN0wR-fb-g" name="Design Engineer" guid="_QPuzkKPxEeOReN0wR-fb-g" presentationName="New Role">
@@ -151,6 +151,33 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_RmaSoKPxEeOReN0wR-fb-g" name="Software Engineer" guid="_RmaSoKPxEeOReN0wR-fb-g" presentationName="New Role">
             <methodElementProperty xmi:id="_SeRuwKPxEeOReN0wR-fb-g" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PDvAoKcJEeOph41jk_0OXw" name="Develop Change and Test Unit" guid="_PDvAoKcJEeOph41jk_0OXw" presentationName="Develop Change and Test Unit" performedBy="_QPuzkKPxEeOReN0wR-fb-g _e3zXkKPuEeOReN0wR-fb-g _RmaSoKPxEeOReN0wR-fb-g _DwvM8KcKEeOph41jk_0OXw _gaItAKPuEeOReN0wR-fb-g">
+            <methodElementProperty xmi:id="_TbV6EKcJEeOph41jk_0OXw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aSzhIKcJEeOph41jk_0OXw" name="Schedule and Assign Tasks" guid="_aSzhIKcJEeOph41jk_0OXw" presentationName="Schedule and Assign Tasks" performedBy="_e3zXkKPuEeOReN0wR-fb-g">
+            <methodElementProperty xmi:id="_b3SysKcJEeOph41jk_0OXw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fDH1gKcJEeOph41jk_0OXw" name="Modify Design" guid="_fDH1gKcJEeOph41jk_0OXw" presentationName="Modify Design" performedBy="_QPuzkKPxEeOReN0wR-fb-g">
+            <methodElementProperty xmi:id="_g4OV8KcJEeOph41jk_0OXw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8u460KcJEeOph41jk_0OXw" name="Review Design" guid="_8u460KcJEeOph41jk_0OXw" presentationName="Review Design" performedBy="_QPuzkKPxEeOReN0wR-fb-g _RmaSoKPxEeOReN0wR-fb-g _DwvM8KcKEeOph41jk_0OXw _gaItAKPuEeOReN0wR-fb-g">
+            <methodElementProperty xmi:id="_-6R0UKcJEeOph41jk_0OXw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_DwvM8KcKEeOph41jk_0OXw" name="Software Engineer 2" guid="_DwvM8KcKEeOph41jk_0OXw" presentationName="Software Engineer 2">
+            <methodElementProperty xmi:id="_FVK0IKcKEeOph41jk_0OXw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MVus0KcKEeOph41jk_0OXw" name="Modify Code" guid="_MVus0KcKEeOph41jk_0OXw" presentationName="Modify Code" performedBy="_QPuzkKPxEeOReN0wR-fb-g">
+            <methodElementProperty xmi:id="_NX1qEKcKEeOph41jk_0OXw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QOgVMKcKEeOph41jk_0OXw" name="Modify Test Plans" guid="_QOgVMKcKEeOph41jk_0OXw" presentationName="Modify Test Plans" performedBy="_gaItAKPuEeOReN0wR-fb-g">
+            <methodElementProperty xmi:id="_RmLSwKcKEeOph41jk_0OXw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_UUQCkKcKEeOph41jk_0OXw" name="Modify Test Unit Package" guid="_UUQCkKcKEeOph41jk_0OXw" presentationName="Modify Test Unit Package" performedBy="_gaItAKPuEeOReN0wR-fb-g">
+            <methodElementProperty xmi:id="_VnzVIKcKEeOph41jk_0OXw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_owjusKcKEeOph41jk_0OXw" name="Monitor Progress" guid="_owjusKcKEeOph41jk_0OXw" presentationName="Monitor Progress" performedBy="_e3zXkKPuEeOReN0wR-fb-g">
+            <methodElementProperty xmi:id="_qIkDcKcKEeOph41jk_0OXw" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>
