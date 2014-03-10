@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-QUdYUG2UKzYYz_Yql1p25A" name="new_role,_AjsnQKPrEeOReN0wR-fb-g" guid="-QUdYUG2UKzYYz_Yql1p25A" changeDate="2014-03-04T17:23:12.295-0500">
-  <mainDescription>The Project Manager must develop a schedule for the work that will be undertaken for the software change. Additionally the&#xD;
-Project Manager must specifically assign work to the team member most suited for the task. This includes, but is not&#xD;
-limited to, assigning a design engineer and quality assurance engineer. The Project Manager must also schedule and&#xD;
-designate the participants for a design review. These participants include the design engineer, QA engineer, and two other&#xD;
-software engineers.</mainDescription>
-</org.eclipse.epf.uma:RoleDescription>

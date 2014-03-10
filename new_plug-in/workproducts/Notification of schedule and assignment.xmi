@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:WorkProductDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-XMGE08KDIClNYGK3GkO9yQ" name="new_outcome,_3XnAQKPsEeOReN0wR-fb-g" guid="-XMGE08KDIClNYGK3GkO9yQ">
-  <mainDescription>Affected personnel are notified by email of their specific task assignments. Additionally all project personnel are&#xD;
-notified in email of the overall project schedule.</mainDescription>
-</org.eclipse.epf.uma:WorkProductDescription>

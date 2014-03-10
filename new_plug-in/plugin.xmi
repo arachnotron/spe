@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_PdzjkJp-EeOmia6CyaG99w" guid="_PdzjkJp-EeOmia6CyaG99w">
-    <resourceDescriptors xmi:id="_0J_qMKPrEeOReN0wR-fb-g" id="-QUdYUG2UKzYYz_Yql1p25A" uri="roles/Project%20Manager.xmi"/>
-    <resourceDescriptors xmi:id="_Fu2BAKPsEeOReN0wR-fb-g" id="-LGo0zmFReXx57lm4OmIViA" uri="tasks/Schedule%20and%20Assign%20Design%20Review.xmi"/>
-    <resourceDescriptors xmi:id="_Do0TMKPtEeOReN0wR-fb-g" id="-XMGE08KDIClNYGK3GkO9yQ" uri="workproducts/Notification%20of%20schedule%20and%20assignment.xmi"/>
-    <resourceDescriptors xmi:id="_Of7msKPtEeOReN0wR-fb-g" id="-qaQ9TfYN1U0Qaf8MGHKhhw" uri="workproducts/Requirements%20Change.xmi"/>
-    <resourceDescriptors xmi:id="_eNwxgKPtEeOReN0wR-fb-g" id="-LEJxa1GT4Qh5osMljhCX4Q" uri="workproducts/Updated%20Project%20Plan.xmi"/>
-    <resourceDescriptors xmi:id="_MDa2EKPvEeOReN0wR-fb-g" id="-9zacd3sFNRZXrML4u7kauA" uri="roles/Design%20Engineer.xmi"/>
-    <resourceDescriptors xmi:id="_WwCw0KPvEeOReN0wR-fb-g" id="-0km8jsAlpmfHgy0m-8hf5Q" uri="workproducts/Modified%20Design.xmi"/>
-    <resourceDescriptors xmi:id="_280aUKPvEeOReN0wR-fb-g" id="-l61sS5BRIXd6e4SIPEBEjQ" uri="workproducts/Requirements%20Change%202.xmi"/>
-    <resourceDescriptors xmi:id="_xbgRYKPwEeOReN0wR-fb-g" id="-iCWOd9YdZDRbgPGUkvM_xA" uri="tasks/Modify%20Design.xmi"/>
     <resourceDescriptors xmi:id="_r9pU8Kc6EeOph41jk_0OXw" id="-Hb_oftLumWaKqMWNKzKUAA" uri="workproducts/Cancellation%20Decision.xmi"/>
     <resourceDescriptors xmi:id="_LYd9EKc7EeOph41jk_0OXw" id="-NOXbCkUQdXeyXkXuV63zFw" uri="tasks/Monitor%20Progress.xmi"/>
     <resourceDescriptors xmi:id="_weWjMKc-EeOph41jk_0OXw" id="-pIepMq2jjOVWWcWP1eIYzA" uri="workproducts/Notification%20of%20Task%20Assignments%20And%20Scheduled%20Dates.xmi"/>
@@ -38,115 +29,6 @@
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_PdxubJp-EeOmia6CyaG99w" name="CoreContent" guid="_PdxubJp-EeOmia6CyaG99w">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xLUKkJp_EeOmia6CyaG99w" name="Develop Change and Test Unit" guid="_xLUKkJp_EeOmia6CyaG99w" briefDescription="High-level abstraction of the process.">
-          <methodElementProperty xmi:id="_xLd7kJp_EeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_RXMmwJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_U3caYJqBEeOmia6CyaG99w" name="Schedule and Assign Tasks" guid="_U3caYJqBEeOmia6CyaG99w">
-          <methodElementProperty xmi:id="_U3caYZqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_W5Or8JqBEeOmia6CyaG99w" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_AjsnQKPrEeOReN0wR-fb-g" name="Project Manager" guid="_AjsnQKPrEeOReN0wR-fb-g" presentationName="PM" briefDescription="Develop a schedule for the work to be undertaken. Must also assign individual team members tasks.">
-            <methodElementProperty xmi:id="_GfSmgKPsEeOReN0wR-fb-g" name="me_edited" value="true"/>
-            <presentation xmi:id="-QUdYUG2UKzYYz_Yql1p25A" href="uma://-QUdYUG2UKzYYz_Yql1p25A#-QUdYUG2UKzYYz_Yql1p25A"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0JQDUKPrEeOReN0wR-fb-g" name="Schedule and Assign Design Review" guid="_0JQDUKPrEeOReN0wR-fb-g" presentationName="Design Review" briefDescription="PM Schedule's and assigns a design review" performedBy="_e3zXkKPuEeOReN0wR-fb-g" mandatoryInput="_wCiv0KPvEeOReN0wR-fb-g _9UH6oKPvEeOReN0wR-fb-g _LwuHEKPwEeOReN0wR-fb-g" output="_3XnAQKPsEeOReN0wR-fb-g _Ed7WQKPtEeOReN0wR-fb-g _Tf3rcKPtEeOReN0wR-fb-g" additionallyPerformedBy="_QPuzkKPxEeOReN0wR-fb-g _gaItAKPuEeOReN0wR-fb-g">
-            <methodElementProperty xmi:id="_FusQAKPsEeOReN0wR-fb-g" name="me_edited" value="true"/>
-            <presentation xmi:id="-LGo0zmFReXx57lm4OmIViA" href="uma://-LGo0zmFReXx57lm4OmIViA#-LGo0zmFReXx57lm4OmIViA"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_3XnAQKPsEeOReN0wR-fb-g" name="Notification of schedule and assignment" guid="_3XnAQKPsEeOReN0wR-fb-g" presentationName="Notification" briefDescription="All affected personnel are notifed of their task assignments and the scheduled dates.">
-            <methodElementProperty xmi:id="_DorJQKPtEeOReN0wR-fb-g" name="me_edited" value="true"/>
-            <presentation xmi:id="-XMGE08KDIClNYGK3GkO9yQ" href="uma://-XMGE08KDIClNYGK3GkO9yQ#-XMGE08KDIClNYGK3GkO9yQ"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_Ed7WQKPtEeOReN0wR-fb-g" name="Requirements Change" guid="_Ed7WQKPtEeOReN0wR-fb-g" presentationName="Requirements Change" briefDescription="Assigned personnel recieve notification of requirements change.">
-            <methodElementProperty xmi:id="_Of0R8KPtEeOReN0wR-fb-g" name="me_edited" value="true"/>
-            <presentation xmi:id="-qaQ9TfYN1U0Qaf8MGHKhhw" href="uma://-qaQ9TfYN1U0Qaf8MGHKhhw#-qaQ9TfYN1U0Qaf8MGHKhhw"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_Tf3rcKPtEeOReN0wR-fb-g" name="Updated Project Plan" guid="_Tf3rcKPtEeOReN0wR-fb-g" presentationName="Updated Project Plan" briefDescription="PM updates project plan with with specific schedule and task assignments.">
-            <methodElementProperty xmi:id="_eNqD0KPtEeOReN0wR-fb-g" name="me_edited" value="true"/>
-            <presentation xmi:id="-LEJxa1GT4Qh5osMljhCX4Q" href="uma://-LEJxa1GT4Qh5osMljhCX4Q#-LEJxa1GT4Qh5osMljhCX4Q"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_2z29gKPtEeOReN0wR-fb-g" name="Begin task" guid="_2z29gKPtEeOReN0wR-fb-g" presentationName="Begin task" briefDescription="Can begin once autorization has been granted by the CCB">
-            <methodElementProperty xmi:id="_B9ngMKPuEeOReN0wR-fb-g" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_EtEwEKPuEeOReN0wR-fb-g" name="End task" guid="_EtEwEKPuEeOReN0wR-fb-g" presentationName="End task" briefDescription="Task can be completed once all outputs have been provided.">
-            <methodElementProperty xmi:id="_I7MWUKPuEeOReN0wR-fb-g" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_jQR-QKPvEeOReN0wR-fb-g" name="Quality Assurance Engineer" guid="_jQR-QKPvEeOReN0wR-fb-g" presentationName="QA Engineer">
-            <methodElementProperty xmi:id="_nN5DUKPvEeOReN0wR-fb-g" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_lraj8KPvEeOReN0wR-fb-g" name="Design Engineer" guid="_lraj8KPvEeOReN0wR-fb-g" presentationName="Design Engineer">
-            <methodElementProperty xmi:id="_nBbUoKPvEeOReN0wR-fb-g" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_wCiv0KPvEeOReN0wR-fb-g" name="Requirements Change" guid="_wCiv0KPvEeOReN0wR-fb-g" presentationName="Requirements Change" briefDescription="The change in requirements for the software system., from the CCB.">
-            <methodElementProperty xmi:id="_28r3cKPvEeOReN0wR-fb-g" name="me_edited" value="true"/>
-            <presentation xmi:id="-l61sS5BRIXd6e4SIPEBEjQ" href="uma://-l61sS5BRIXd6e4SIPEBEjQ#-l61sS5BRIXd6e4SIPEBEjQ"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_9UH6oKPvEeOReN0wR-fb-g" name="Project Plans" guid="_9UH6oKPvEeOReN0wR-fb-g" presentationName="Project Plans" briefDescription="Perliminary project plans delievered as a file.">
-            <methodElementProperty xmi:id="_HG4OIKPwEeOReN0wR-fb-g" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_LwuHEKPwEeOReN0wR-fb-g" name="Authorization" guid="_LwuHEKPwEeOReN0wR-fb-g" presentationName="Authorization" briefDescription="Authorization from the CCB for the suggested work. Verbal.">
-            <methodElementProperty xmi:id="_PPJVwKPwEeOReN0wR-fb-g" name="me_edited" value="true"/>
-          </contentElements>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_eRbokJqBEeOmia6CyaG99w" name="Modify Design" guid="_eRbokJqBEeOmia6CyaG99w">
-          <methodElementProperty xmi:id="_eRw_wJqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_e8PgIJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_SMC2oKPuEeOReN0wR-fb-g" name="Design Engineer" guid="_SMC2oKPuEeOReN0wR-fb-g" presentationName="D Eng" briefDescription="The Design Engineer is responsbile for the design of the software project.">
-            <methodElementProperty xmi:id="_MDThUKPvEeOReN0wR-fb-g" name="me_edited" value="true"/>
-            <presentation xmi:id="-9zacd3sFNRZXrML4u7kauA" href="uma://-9zacd3sFNRZXrML4u7kauA#-9zacd3sFNRZXrML4u7kauA"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_NEmmQKPvEeOReN0wR-fb-g" name="Modified Design" guid="_NEmmQKPvEeOReN0wR-fb-g" presentationName="Modified Design" briefDescription="The modified design of the software unit to be changed">
-            <methodElementProperty xmi:id="_Wv61AKPvEeOReN0wR-fb-g" name="me_edited" value="true"/>
-            <presentation xmi:id="-0km8jsAlpmfHgy0m-8hf5Q" href="uma://-0km8jsAlpmfHgy0m-8hf5Q#-0km8jsAlpmfHgy0m-8hf5Q"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_e1IMIKPwEeOReN0wR-fb-g" name="Current Design" guid="_e1IMIKPwEeOReN0wR-fb-g" presentationName="Current Design" briefDescription="Design of the current system before any changes have been implemented">
-            <methodElementProperty xmi:id="_hfFQ8KPwEeOReN0wR-fb-g" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_iNz_MKPwEeOReN0wR-fb-g" name="Design Review Feedback" guid="_iNz_MKPwEeOReN0wR-fb-g" presentationName="Design Review Feedback" briefDescription="Feedback from the design review that must be implemented in the design.">
-            <methodElementProperty xmi:id="_mdx_kKPwEeOReN0wR-fb-g" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nzCiUKPwEeOReN0wR-fb-g" name="Modify Design" guid="_nzCiUKPwEeOReN0wR-fb-g" presentationName="Modify Design" briefDescription="The design for the software system will be modified by the design engineer." performedBy="_QPuzkKPxEeOReN0wR-fb-g" mandatoryInput="_e1IMIKPwEeOReN0wR-fb-g" output="_NEmmQKPvEeOReN0wR-fb-g" optionalInput="_iNz_MKPwEeOReN0wR-fb-g">
-            <methodElementProperty xmi:id="_xbYVkKPwEeOReN0wR-fb-g" name="me_edited" value="true"/>
-            <presentation xmi:id="-iCWOd9YdZDRbgPGUkvM_xA" href="uma://-iCWOd9YdZDRbgPGUkvM_xA#-iCWOd9YdZDRbgPGUkvM_xA"/>
-          </contentElements>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f4Y_UJqBEeOmia6CyaG99w" name="Review Design" guid="_f4Y_UJqBEeOmia6CyaG99w" presentationName="Review Design" briefDescription="The ">
-          <methodElementProperty xmi:id="_f4Y_UZqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_gm_KsJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
-          <methodElementProperty xmi:id="_hn9fgJqBEeOmia6CyaG99w" name="pakage_supporting" value="false"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_AAVzMJqCEeOmia6CyaG99w" name="Design Review Feedback" guid="_AAVzMJqCEeOmia6CyaG99w" presentationName="New Artifact">
-            <methodElementProperty xmi:id="_B7RO0JqCEeOmia6CyaG99w" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_Nc3CsJqCEeOmia6CyaG99w" name="Approved Modified Design" guid="_Nc3CsJqCEeOmia6CyaG99w" presentationName="New Deliverable">
-            <methodElementProperty xmi:id="_OdjqsJqCEeOmia6CyaG99w" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_Q4HBkJqCEeOmia6CyaG99w" name="Defects Identified" guid="_Q4HBkJqCEeOmia6CyaG99w" presentationName="New Outcome">
-            <methodElementProperty xmi:id="_Ru3DYJqCEeOmia6CyaG99w" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_SWxX8JqCEeOmia6CyaG99w" name="Aggregate Effort" guid="_SWxX8JqCEeOmia6CyaG99w" presentationName="New Outcome">
-            <methodElementProperty xmi:id="_TnPhUJqCEeOmia6CyaG99w" name="me_edited" value="true"/>
-          </contentElements>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_pPn0cJqBEeOmia6CyaG99w" name="Modify Code" guid="_pPn0cJqBEeOmia6CyaG99w">
-          <methodElementProperty xmi:id="_pP_n4JqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_pviqoJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qjDLMJqBEeOmia6CyaG99w" name="Modify Test Plans" guid="_qjDLMJqBEeOmia6CyaG99w">
-          <methodElementProperty xmi:id="_qjDyQJqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_ssHwgJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_tS7R0JqBEeOmia6CyaG99w" name="Modify Unit Test Package" guid="_tS7R0JqBEeOmia6CyaG99w">
-          <methodElementProperty xmi:id="_tS744JqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_usDA4JqBEeOmia6CyaG99w" name="me_edited" value="true"/>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_v-NzYJqBEeOmia6CyaG99w" name="Test Unit" guid="_v-NzYJqBEeOmia6CyaG99w">
-          <methodElementProperty xmi:id="_v-v-4JqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_waLWoJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xAhk8JqBEeOmia6CyaG99w" name="Monitor Progress" guid="_xAhk8JqBEeOmia6CyaG99w">
-          <methodElementProperty xmi:id="_xAhk8ZqBEeOmia6CyaG99w" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_yXPgQJqBEeOmia6CyaG99w" name="me_edited" value="true"/>
-        </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cL5yAKPuEeOReN0wR-fb-g" name="Generic content" guid="_cL5yAKPuEeOReN0wR-fb-g">
           <methodElementProperty xmi:id="_cL5yAaPuEeOReN0wR-fb-g" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_doGqQKPuEeOReN0wR-fb-g" name="me_edited" value="true"/>

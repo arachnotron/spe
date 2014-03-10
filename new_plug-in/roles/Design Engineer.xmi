@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-9zacd3sFNRZXrML4u7kauA" name="new_role,_SMC2oKPuEeOReN0wR-fb-g" guid="-9zacd3sFNRZXrML4u7kauA" changeDate="2014-03-04T17:48:25.157-0500">
-  <mainDescription>&lt;p>&#xD;
-    The Design Engineer modifies the design of the code unit to be affected by the requirements change. The Design Engineer&#xD;
-    must take into account not only the requirements change but also the feedback from the design review.&#xD;
-&lt;/p></mainDescription>
-  <keyConsiderations>Highly creative</keyConsiderations>
-</org.eclipse.epf.uma:RoleDescription>
